@@ -1,0 +1,226 @@
+/**
+ * Menu-specific styling
+ */ 
+
+$nav_bar_height: 50px;
+
+/** Define variables for breakpoints and changes in layout */
+
+$mobile:  320px 4;
+$mobile2: 480px 6;
+$tablet: 724px 12;
+$desktop: 960px 12;
+
+$mobile_to_tablet: 320px 723px;
+$tablet_to_desktop: 724px 959px;
+
+
+#fake-search-button {
+	height: $nav-bar-height;
+	min-height: $nav-bar-height;
+	width: $nav-bar-height;
+	float: right;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: #333 url(../images/search-icon.png) no-repeat center center;
+	overflow: hidden;
+	z-index: 30;
+
+	h2 {
+		display: none;
+	}
+
+	clear: right;
+}
+
+/*
+ * Styles that should be appliucable in mobile view and above (i.e. default styles)
+ */
+
+
+@include at-breakpoint($mobile) {
+
+  #block-menu-menu-main-navigation {
+    display: block;
+    position: absolute;
+    clear: left;
+    padding: 0;
+    margin: 0;
+    right: 51px;
+    z-index: 999;
+    min-height: $nav_bar_height;
+    background: $gray1;
+
+
+    h2 {
+      display: none;
+    }
+
+
+    .links {
+      display: block;
+      padding: 0;
+      margin: 0;
+
+      float: left;
+      background: $gray1 url(../images/mobile-menu-bg.png) no-repeat center center;
+      width: 120px;
+      min-height: $nav_bar_height;
+
+
+      li {
+        margin: 0;
+        padding: 0 0.4em 0 0.4em;
+        width: 100%;
+        display: none;
+
+
+      }
+
+
+      &:hover {
+        background-image: none;
+
+        li {
+          float: left;
+          display: block;
+          border-top: 1px #ccc solid;
+
+          a {
+            display: block;
+            border: 0;
+            margin: 0;
+            line-height: $nav_bar_height;
+            text-decoration: none;
+            color: #fff;
+            font-family: $proxima;
+            text-transform: uppercase;
+            font-weight: 300;
+            font-size: 1em;
+            text-align: center;
+
+            &:hover {
+              color: #ccc;
+            }
+          }
+
+
+        }
+      }
+
+      li.first {
+        border-top: 0;
+      }
+    }
+  }
+}
+
+
+@include at-breakpoint($mobile2) {
+  #block-menu-menu-main-navigation {
+    position: absolute;
+    left: 0;
+
+    .links {
+      /*background-color: #bb0000;*/
+      width: 100%;
+      a {
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+
+
+
+// Tablet View
+@include at-breakpoint($tablet) {
+
+  #block-menu-menu-main-navigation {
+    position: static;
+    right: auto;
+
+    .links {
+      display: block;
+      float: none;
+      background-image: none;
+      width: auto;
+      min-height: $nav_bar_height;
+
+
+      li, &:hover li {
+        width: auto;
+        display: inline-block;
+        float: none;
+        border: 0;
+      }
+
+      a, &:hover a {
+        display: block;
+        border: 0;
+        margin: 0;
+        line-height: $nav_bar_height;
+        text-decoration: none;
+        color: #fff;
+        font-family: $proxima;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 0.9em;
+        text-align: center;
+      }
+    }
+  }
+
+}
+
+
+// Desktop view
+@include at-breakpoint($desktop) {
+
+
+  #block-menu-menu-main-navigation {
+    display: block;
+    position: static;
+    background: #666;
+    margin-right: 50px;
+    width: auto;
+    right: auto;
+
+
+    .links {
+      padding: 0;
+      margin: 0;
+      margin-left: 20px;
+
+      li {
+        display: inline-block;
+
+        padding-left: 0.4em;
+        padding-right: 0.4em;
+
+
+        a {
+          display: block;
+          border: 0;
+          margin: 0;
+          line-height: $nav_bar_height;
+          text-decoration: none;
+          color: #fff;
+          font-family: $proxima;
+          text-transform: uppercase;
+          font-weight: 300;
+          font-size: 1em;
+
+          &:hover {
+            color: #ccc;
+          }
+        }
+
+      }
+    }
+  }
+}
+

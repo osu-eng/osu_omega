@@ -1,0 +1,81 @@
+
+.panel-3col { 
+/*  overflow: hidden;  */
+}
+
+.panel-3col .panel-col-first { 
+  float: left; 
+  width: 220px; 
+}
+
+.panel-3col .panel-col-first .inside { 
+  margin: 0;
+}
+
+.panel-col-first .inside ul.menu {
+  padding: 0;
+  margin: 0;
+}
+
+/* This theming should be done elsewhere */
+
+.panel-col-first .inside ul.menu li {
+  display: block;
+  background: #ccc;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 24px;
+  margin-bottom: 1px;
+  line-height: 24px;
+}
+
+.panel-col-first .inside ul.menu li a {
+  line-height: 24px;
+  font-size: 0.8em;
+  font-family: Verdana, Arial;
+  text-decoration: none;
+  color: #333;
+}
+
+/* End menu themeing */
+
+.panel-3col .panel-col { 
+  margin-left: 240px;
+  float: left;
+  background: #eee;
+  padding: 0;
+  margin: 0; 
+}
+
+.panel-3col .panel-col .inside {
+  float: left;
+  margin: 0;
+
+}
+
+.panel-3col .panel-col .inside { 
+  /* margin: 0 .5em 1em .5em; */
+}
+
+.panel-3col .panel-col-last { 
+  float: right; 
+  width: 220px; 
+    background: #ddd; 
+}
+
+.panel-3col .panel-col-last .inside { 
+  margin: 0 0 1em .5em;
+}
+
+.panel-3col .panel-separator {
+  margin: 0 0 1em 0;
+}
+
+.panel-3col .panel-no-left-sidebar .inside {
+  margin-left: 0;
+}
+
+.panel-3col .panel-no-right-sidebar .inside {
+  margin-right: 0;
+  background: #bb0000;
+}

@@ -1,0 +1,393 @@
+/*******************************************************************************
+ * _layout.scss
+ *
+ * Styling of the "simple" layout demonstrating the Compass grid extension Susy
+ * and building mobile first layouts.
+ ******************************************************************************/
+@import "../osu_navbar";
+@import "susy";
+
+// Susy Variables
+
+// Set consistent vertical and horizontal spacing units.
+$vert-spacing-unit: 20px;
+$horz-spacing-unit: 1em;
+
+// Define Susy grid variables mobile first.
+$total-columns: 4;
+$column-width: 4em;
+$gutter-width: $horz-spacing-unit;
+$grid-padding: 0px;
+
+$container-style: magic;
+$container-width: 960px;
+
+// Susy Media Layouts @see http://susy.oddbird.net/guides/reference/#ref-media-layouts
+$tab: 45.25em 12; // At 724px/45.25em use 12 columns.
+$desk: 60em 12; // At 960px/60em use 16 columns.
+
+
+.l-header,
+.l-main,
+.l-footer {
+  @include container; // Define these elements as the grid containers.
+  //@include susy-grid-background; // Show the columns for debugging.
+  margin-bottom: $vert-spacing-unit;
+}
+
+
+
+.l-region--highlighted,
+.l-region--help,
+.l-region--sidebar-first,
+.l-region--sidebar-second {
+  margin-bottom: $vert-spacing-unit;
+}
+
+@include at-breakpoint($tab) { // At a given Susy Media Layout, use a given amount of columns.
+  .l-header,
+  .l-main,
+  .l-footer {
+    @include set-container-width; // Reset only the container width (elements have already been declared as containers).
+    // @include susy-grid-background; // Show the columns for debugging.
+  }
+
+  .l-branding {
+    @include span-columns(4, 12); // Span 4 out of 12 columns.
+  }
+  .l-region--header{
+    @include span-columns(8 omega, 12); // Span the last (omega) 8 columns of 12.
+  }
+  .l-region--navigation {
+    // clear: both;
+  }
+
+  .sidebar-first,
+  .sidebar-second,
+  .two-sidebars {
+    .l-content {
+      @include span-columns(8, 12); // Span 8 out of 12 columns.
+    }
+    .l-region--sidebar-first,
+    .l-region--sidebar-second {
+      @include span-columns(4 omega, 12); // Span the last (omega) 4 columns of 12.
+    }
+    .l-region--sidebar-second {
+      clear: right;
+    }
+  }
+}
+
+@include at-breakpoint($desk) {
+  .l-header,
+  .l-main,
+  .l-footer {
+    @include set-container-width; // Reset only the container width (elements have already been declared as containers).
+    // @include susy-grid-background; // Show the columns for debugging.
+  }
+
+  .l-branding {
+    @include span-columns(6, 16); // Span 6 out of 16 columns.
+  }
+  .l-region--header{
+    @include span-columns(10 omega, 16); // Span the last (omega) 10 columns of 16.
+  }
+
+  .sidebar-first {
+    .l-content {
+      @include span-columns(12 omega, 16); // Span the last (omega) 12 columns of 16.
+    }
+    .l-region--sidebar-first {
+      @include span-columns(4, 16); // Span 4 out of 16 columns.
+    }
+  }
+  .sidebar-second {
+    .l-content {
+      @include span-columns(12, 16); // Span 12 out of 16 columns.
+    }
+    .l-region--sidebar-second {
+      @include span-columns(4 omega, 16); // Span the last (omega) 12 columns of 16.
+      clear: none;
+    }
+  }
+
+  .two-sidebars {
+    .l-content {
+      @include span-columns(8, 16); // Span 12 out of 16 columns.
+      @include push(4, 16);  // Push element by adding 4 out of 16 columns of left margin.
+    }
+    .l-region--sidebar-first,
+    .l-region--sidebar-second {
+      @include span-columns(4, 16); // Span 4 out of 16 columns.
+    }
+    .l-region--sidebar-first {
+      @include pull(12, 16); // Pull element by adding 12 out of 16 columns of negative left margin.
+    }
+    .l-region--sidebar-second {
+      @include omega; // This element spans the last (omega) column.
+      clear: none;
+    }
+  }
+}
+
+
+/**
+ ** Adding CSS/SASS/SUSY hacks below, until such a time that each section
+ ** can be put in their proper partial file.
+ **
+ ** For now, the mess below should contain the main 'layout' design
+ **/
+
+.header_clear {
+  display: none;
+  clear: none;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+
+/** Define variables for breakpoints and changes in layout */
+
+$mobile:  320px 4;
+$mobile2: 480px 6;
+$tablet: 724px 12;
+$desktop: 960px 12;
+
+$mobile_to_tablet: 320px 723px;
+$tablet_to_desktop: 724px 959px;
+
+
+
+
+
+// Settings that should apply at mobile view and above
+@include at-breakpoint($mobile) {
+  .l-header {
+    position: relative;
+    display: block;
+    border-bottom: 1px #b2b2b2 solid;
+
+    #header {
+      display: none;
+    }
+
+    .l-branding {
+      display: block;
+      float: left;
+      width: auto;
+      min-width: 150px;
+      margin: 0;
+      padding: 0;
+
+      .site-name {
+        margin: 0;
+        padding: 0;
+        a {
+          display: inline-block;
+          text-decoration: none;
+          width: 200px;
+          font-family: 'proximanova';
+          font-size: 0.8em;
+          color: #000;
+          text-decoration: none;
+          line-height: 1em;
+          text-transform: uppercase;
+          margin: 0;
+          padding: 0;
+        }
+      }
+    }
+
+    .l-navigation {
+      display: block;
+      float: right;
+    }
+  }
+
+  .l-footer {
+    background: #b2b2b2;
+
+    .l-region--footer {
+
+      div#block-block-5 {
+        display: block;
+        min-width: 300px;
+        margin: 10px;
+        float: left;
+        background: url(../../../images/osu-footer-logo.png) no-repeat top left;
+        padding-top: 34px;
+        margin-top: 34px;
+        div {
+          margin: 0;
+          padding: 0;
+
+          p {
+            padding: 0;
+            margin: 0;
+            font-family: 'proximanova';
+            font-size: 0.9em;
+          }
+        }
+      }
+
+      #block-menu-menu-quick-links,
+      #block-menu-menu-helpful-links {
+        float: left;
+        display: block;
+        margin: 10px;
+        min-width: 140px;
+
+        h2 {
+          padding: 0;
+          margin: 0;
+          font-family: 'proximanova',Helvetica, Arial;
+          font-size: 1.2em;
+          font-weight: 400;
+          border-bottom: 1px #000 solid;
+          padding-top: 25px;
+          display: block;
+          margin-bottom: 10px;
+
+        }
+
+        ul {
+          margin: 0;
+          list-style-type: none;
+          padding: 0;
+
+          li {
+            display: block;
+            height: 1.4em;
+            a {
+              text-decoration: none;
+              font-size: 0.8em;
+            }
+          }
+        }
+
+      }
+    }
+  }
+
+  .l-content {
+    ul.breadcrumb {
+      display: none;
+    }
+  }
+}
+
+// Settings that should apply at wide (480) mobile view and above
+@include at-breakpoint($mobile2) {
+  .l-header {
+    .l-branding {
+      float: none;
+      .site-name {
+        padding: 5px 0 5px 0;
+        a {
+          width: 100%;
+          font-size: 1em;
+          text-align: center;
+        }
+      }
+    }
+    .l-navigation {
+      width: 100%;
+    }
+  }
+
+  .l-content {
+    ul.breadcrumb {
+      padding: 0;
+      list-style-type: none;
+      clear: both;
+      margin-left: 20px;
+
+      li {
+        display: inline-block;
+        font-family: 'proximanova';
+        color: #bb0000;
+        font-size: 0.8em;
+        font-weight: 600;
+        margin-right: 20px;
+        a {
+          text-decoration: none;
+          font-weight: 600;
+          color: #000;
+          &:hover {
+            color: #bb0000;
+          }
+        }
+
+      }
+    }
+  }
+}
+
+// Settings that should apply at tablet view and above
+@include at-breakpoint($tablet) {
+  .l-header {
+    border: 0;
+
+    div.l-branding {
+      width: 480px;
+      min-width: 480px;
+      float: left;
+
+      .site-name {
+        display: block;
+        padding: 40px;
+
+        a {
+          display: block;
+          width: 400px;
+          height: 60px;
+          background: url(../../../images/logo.png) no-repeat;
+          span {
+            display: none;
+          }
+        }
+      }
+
+
+    }
+
+    .l-navigation {
+
+    }
+
+  }
+  .l-footer {
+    .l-region--footer {
+      #block-menu-menu-quick-links,
+      #block-menu-menu-helpful-links {
+        min-width: 200px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+
+// Settings that should only apply at full desktop views
+@include at-breakpoint($desktop) {
+  .l-header {
+    #header {
+      p {
+        display: none;
+      }
+      display: block;
+      width: 150px;
+      height: 120px;
+      background: url('../../../images/social-media-icons.png') no-repeat bottom left;
+      float: right;
+
+
+    }
+  }
+
+
+}

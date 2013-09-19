@@ -1,0 +1,9 @@
+@media all and (max-width: 724px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/acquia-drupal\/sites\/all\/themes\/osu_omega\/sass\/osu_omega\.hacks\.scss}line{font-family:\000033}}
+  #toolbar, #admin-menu {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/acquia-drupal\/sites\/all\/themes\/osu_omega\/sass\/osu_omega\.hacks\.scss}line{font-family:\000038}}
+  html body.toolbar, html body.admin-menu {
+    padding-top: 0 !important;
+    margin-top: 0 !important; } }

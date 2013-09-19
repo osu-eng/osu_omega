@@ -1,0 +1,11 @@
+// Define some shared variables
+
+$proxima: "proximanova",Arial,sans-serif;
+$capita: "capita","Times New Roman",serif;
+$gray1: #666;
+$gray2: #333;
+
+// Load utility, base and components.
+@import "partials/utility/**/*";
+@import "partials/base/**/*";
+@import "partials/components/**/*";
