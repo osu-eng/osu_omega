@@ -4,6 +4,7 @@ base theme = omega
 screenshot = screenshot.png
 engine = phptemplate
 core = 7.x
+version = 7.x-1.5
 stylesheets[all][] = css/osu_omega.normalize.css
 stylesheets[all][] = css/osu_omega.hacks.css
 stylesheets[all][] = css/osu_omega.styles.css

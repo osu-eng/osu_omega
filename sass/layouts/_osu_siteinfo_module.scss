@@ -1,0 +1,31 @@
+div.siteinfo-social {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  a.siteinfo-social-link {
+    text-indent: -9999px;
+    display: inline-block;
+    height: 33px;
+    width: 33px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  .link-facebook {
+    background: url("../../../images/siteinfo/social-facebook.png") no-repeat center center;
+  }
+
+  .link-twitter {
+    background: url("../../../images/siteinfo/social-twitter.png") no-repeat center center;
+  }
+
+  .link-youtube {
+    background: url("../../../images/siteinfo/social-youtube.png") no-repeat center center;
+  }
+
+  .link-linkedin {
+    background: url("../../../images/siteinfo/social-linkedin.png") no-repeat center center;
+  }
+}

@@ -230,7 +230,34 @@ a#skip:active:hover, a#skip:focus:hover {
     -webkit-background-size: 23px;
     -moz-background-size: 23px;
     background-size: 23px; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/_osu_siteinfo_module\.scss}line{font-family:\000031}}
+div.siteinfo-social {
+  display: block;
+  margin: 0;
+  padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/_osu_siteinfo_module\.scss}line{font-family:\000036}}
+  div.siteinfo-social a.siteinfo-social-link {
+    text-indent: -9999px;
+    display: inline-block;
+    height: 33px;
+    width: 33px;
+    border: 0;
+    padding: 0;
+    margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/_osu_siteinfo_module\.scss}line{font-family:\0000316}}
+  div.siteinfo-social .link-facebook {
+    background: url("../../../images/siteinfo/social-facebook.png") no-repeat center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/_osu_siteinfo_module\.scss}line{font-family:\0000320}}
+  div.siteinfo-social .link-twitter {
+    background: url("../../../images/siteinfo/social-twitter.png") no-repeat center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/_osu_siteinfo_module\.scss}line{font-family:\0000324}}
+  div.siteinfo-social .link-youtube {
+    background: url("../../../images/siteinfo/social-youtube.png") no-repeat center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/_osu_siteinfo_module\.scss}line{font-family:\0000328}}
+  div.siteinfo-social .link-linkedin {
+    background: url("../../../images/siteinfo/social-linkedin.png") no-repeat center center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\0000333}}
 .l-header,
 .l-main,
 .l-footer {
@@ -250,7 +277,7 @@ a#skip:active:hover, a#skip:focus:hover {
     display: table;
     clear: both; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\0000344}}
 .l-region--highlighted,
 .l-region--help,
 .l-region--sidebar-first,
@@ -258,32 +285,32 @@ a#skip:active:hover, a#skip:focus:hover {
   margin-bottom: 20px; }
 
 @media (min-width: 45.25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\0000351}}
   .l-header,
   .l-main,
   .l-footer {
     max-width: 960px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\0000356}}
   .l-branding {
     width: 32.20339%;
     float: left;
     margin-right: 1.69492%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\0000359}}
   .l-region--header {
     width: 66.10169%;
     float: right;
     margin-right: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\0000369}}
   .sidebar-first .l-content,
   .sidebar-second .l-content,
   .two-sidebars .l-content {
     width: 66.10169%;
     float: left;
     margin-right: 1.69492%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\0000373}}
   .sidebar-first .l-region--sidebar-first,
   .sidebar-first .l-region--sidebar-second,
   .sidebar-second .l-region--sidebar-first,
@@ -293,69 +320,69 @@ a#skip:active:hover, a#skip:focus:hover {
     width: 32.20339%;
     float: right;
     margin-right: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\0000376}}
   .sidebar-first .l-region--sidebar-second,
   .sidebar-second .l-region--sidebar-second,
   .two-sidebars .l-region--sidebar-second {
     clear: right; } }
 @media (min-width: 60em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\0000385}}
   .l-header,
   .l-main,
   .l-footer {
     max-width: 960px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\0000390}}
   .l-branding {
     width: 36.70886%;
     float: left;
     margin-right: 1.26582%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\0000393}}
   .l-region--header {
     width: 62.02532%;
     float: right;
     margin-right: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\0000398}}
   .sidebar-first .l-content {
     width: 74.68354%;
     float: right;
     margin-right: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003101}}
   .sidebar-first .l-region--sidebar-first {
     width: 24.05063%;
     float: left;
     margin-right: 1.26582%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003106}}
   .sidebar-second .l-content {
     width: 74.68354%;
     float: left;
     margin-right: 1.26582%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003109}}
   .sidebar-second .l-region--sidebar-second {
     width: 24.05063%;
     float: right;
     margin-right: 0;
     clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003116}}
   .two-sidebars .l-content {
     width: 49.36709%;
     float: left;
     margin-right: 1.26582%;
     margin-left: 25.31646%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003121}}
   .two-sidebars .l-region--sidebar-first,
   .two-sidebars .l-region--sidebar-second {
     width: 24.05063%;
     float: left;
     margin-right: 1.26582%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003124}}
   .two-sidebars .l-region--sidebar-first {
     margin-left: -75.94937%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003126}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003127}}
   .two-sidebars .l-region--sidebar-second {
     float: right;
     margin-right: 0;
@@ -366,7 +393,7 @@ a#skip:active:hover, a#skip:focus:hover {
  **
  ** For now, the mess below should contain the main 'layout' design
  **/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003142}}
 .header_clear {
   display: none;
   clear: none;
@@ -378,15 +405,15 @@ a#skip:active:hover, a#skip:focus:hover {
 
 /** Define variables for breakpoints and changes in layout */
 @media (min-width: 320px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003168}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003169}}
   .l-header {
     position: relative;
     display: block;
     border-bottom: 1px #b2b2b2 solid; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003173}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003174}}
     .l-header #header {
       display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003178}}
     .l-header .l-branding {
       display: block;
       float: left;
@@ -394,11 +421,11 @@ a#skip:active:hover, a#skip:focus:hover {
       min-width: 150px;
       margin: 0;
       padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003185}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003186}}
       .l-header .l-branding .site-name {
         margin: 0;
         padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003188}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003189}}
         .l-header .l-branding .site-name a {
           display: inline-block;
           text-decoration: none;
@@ -411,15 +438,15 @@ a#skip:active:hover, a#skip:focus:hover {
           text-transform: uppercase;
           margin: 0;
           padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003204}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003205}}
     .l-header .l-navigation {
       display: block;
       float: right; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003210}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003211}}
   .l-footer {
     background: #b2b2b2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003215}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003216}}
     .l-footer .l-region--footer div#block-block-5 {
       display: block;
       min-width: 300px;
@@ -428,24 +455,24 @@ a#skip:active:hover, a#skip:focus:hover {
       background: url(../../../images/osu-footer-logo.png) no-repeat top left;
       padding-top: 34px;
       margin-top: 34px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003223}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003224}}
       .l-footer .l-region--footer div#block-block-5 div {
         margin: 0;
         padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003227}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003228}}
         .l-footer .l-region--footer div#block-block-5 div p {
           padding: 0;
           margin: 0;
           font-family: 'proximanova';
           font-size: 0.9em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003237}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003238}}
     .l-footer .l-region--footer #block-menu-menu-quick-links,
     .l-footer .l-region--footer #block-menu-menu-helpful-links {
       float: left;
       display: block;
       margin: 10px;
       min-width: 140px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003243}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003244}}
       .l-footer .l-region--footer #block-menu-menu-quick-links h2,
       .l-footer .l-region--footer #block-menu-menu-helpful-links h2 {
         padding: 0;
@@ -457,49 +484,49 @@ a#skip:active:hover, a#skip:focus:hover {
         padding-top: 25px;
         display: block;
         margin-bottom: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003256}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003257}}
       .l-footer .l-region--footer #block-menu-menu-quick-links ul,
       .l-footer .l-region--footer #block-menu-menu-helpful-links ul {
         margin: 0;
         list-style-type: none;
         padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003261}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003262}}
         .l-footer .l-region--footer #block-menu-menu-quick-links ul li,
         .l-footer .l-region--footer #block-menu-menu-helpful-links ul li {
           display: block;
           height: 1.4em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003264}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003265}}
           .l-footer .l-region--footer #block-menu-menu-quick-links ul li a,
           .l-footer .l-region--footer #block-menu-menu-helpful-links ul li a {
             text-decoration: none;
             font-size: 0.8em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003276}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003277}}
   .l-content ul.breadcrumb {
     display: none; } }
 @media (min-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003285}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003286}}
   .l-header .l-branding {
     float: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003287}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003288}}
     .l-header .l-branding .site-name {
       padding: 5px 0 5px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003289}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003290}}
       .l-header .l-branding .site-name a {
         width: 100%;
         font-size: 1em;
         text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003296}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003297}}
   .l-header .l-navigation {
     width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003302}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003303}}
   .l-content ul.breadcrumb {
     padding: 0;
     list-style-type: none;
     clear: both;
     margin-left: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003308}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003309}}
     .l-content ul.breadcrumb li {
       display: inline-block;
       font-family: 'proximanova';
@@ -507,51 +534,51 @@ a#skip:active:hover, a#skip:focus:hover {
       font-size: 0.8em;
       font-weight: 600;
       margin-right: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003316}}
       .l-content ul.breadcrumb li a {
         text-decoration: none;
         font-weight: 600;
         color: #000; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003320}}
         .l-content ul.breadcrumb li a:hover {
           color: #bb0000; } }
 @media (min-width: 724px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003332}}
   .l-header {
     border: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003335}}
     .l-header div.l-branding {
       width: 480px;
       min-width: 480px;
       float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003340}}
       .l-header div.l-branding .site-name {
         display: block;
         padding: 40px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003344}}
         .l-header div.l-branding .site-name a {
           display: block;
           width: 400px;
           height: 60px;
           background: url(../../../images/logo.png) no-repeat; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003349}}
           .l-header div.l-branding .site-name a span {
             display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003366}}
   .l-footer .l-region--footer #block-menu-menu-quick-links,
   .l-footer .l-region--footer #block-menu-menu-helpful-links {
     min-width: 200px;
     margin-left: 20px;
     margin-right: 20px; } }
 @media (min-width: 960px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003379}}
   .l-header #header {
     display: block;
     width: 150px;
     height: 120px;
     background: url("../../../images/social-media-icons.png") no-repeat bottom left;
     float: right; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/esko_kautto\/Sites\/panopoly\/sites\/all\/themes\/osu_omega\/sass\/layouts\/osumain\/osumain\.layout\.scss}line{font-family:\00003380}}
     .l-header #header p {
       display: none; } }
